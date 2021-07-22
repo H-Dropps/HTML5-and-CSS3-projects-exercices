@@ -1,1 +1,1 @@
-<p style="text-align: 100px;">Tenho 15 anos no momento de desenvolvimento desse website. Me chamo ******** estudo desenvolvido web na parte de FRONT-END sou estudante do ensino médio, 1ª Serie,  penseo em fazer um curso de ciências da computação na universidade da minha cidade, apos me especializar em FRONT-END irei me aprofundar em BACK-END para algum dia vir me tornar um desenvolvidor FULLSTACK</p></p>
+ola
