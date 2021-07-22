@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras formataçõs: </h1>
+
+    <h2>codigo fonte:</h2>
+    
+    <!-- Usando <code> para determinar um codigo -->
+    <p>O comando <code>document.getElementById('teste')</code> é escrito na linguagem JavaScript.</p>
+
+    <h2>Este codigo esta em <em>Python</em></h2>
+   
+    <!-- <pre> usado para manter o alinhamento, quebras de linhas e espasamentos -->
+    <pre>
+        <code>
+num = int(input('Digite um numero: '))
+if num %2 == 0:
+    print(f'O número {num} é Par')
+else:
+    printf(f'O npumero {num} é Impar')
+print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações: </h2>
+    <!-- Citações simples usando <q> (quote) -->
+    <h3>Citações simples: </h3>
+    <p>Como diria um pai de um amigo: <q>o computador é um burro muito rapido.</q></p>
+    
+    <h3>Citações completas: </h3>
+    <!-- Usando <blockquote cite="link"> -->
+    <p>segundo o livro de desenvolvimento web da <strong>Alura</strong>:</p>
+    
+    <blockquote cite="https://www.caelum.com.br/apostila/apostila-html-css-javascript.pdf">
+        Uma	 aplicação	 Web	 pode	 conter	 uma	 coleção	 de	 páginas,	 porém	 o	 conteúdo	 destas	 páginas	 é
+        montado	dinamicamente,	ou	seja,	é	carregado	através	de	solicitações	(requisições)	à	um	banco	de	dados,
+        que	conterá	armazenado	os	textos	e	indicação	dos	caminhos	das	imagens	ou	mídias	que	a	página	precisa
+        exibir.	Porém	um	HTML	não	tem	acesso	direto	à	um	banco	de	dados,	e	esta	comunicação	deve	ser	feita
+        por	 uma	 linguagem	 de	 programação	 de	 servidor	Web.	 Esta	 aplicação	 escrita	 com	 uma	 linguagem	 de
+        servidor	que	tem	o	poder	de	acessar	o	banco	de	dados	e	montar	a	página	HTML	conforme	o	solicitado
+        pelo	navegador.	Estas	solicitações	podem	ser	feitas	de	várias	maneiras,	inclusive	utilizando	JavaScript.
+        Portanto	uma	aplicação	Web	é	mais	complexa	porque	precisa	de	uma	linguagem	de	servidor	para	poder
+        intermediar	 as	 solicitações	 do	 navegador,	 um	 banco	 de	 dados,	 e	 muitas	 vezes	 (porém	 não
+        obrigatoriamente)	exibir	páginas	HTML	com	estes	conteúdos.
+    </blockquote>
+
+    <h2>Abreviações:</h2>
+    <!-- usando <abbr> você pode abreviar e adicionar uma box flutuante para poder motrar oq é essa abreviação -->
+    <p>Estou estudadno <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Casdading Style Sheets">CSS</abbr> e estou amando</p>
+
+    <h2>Texto invertido</h2>
+    <!-- <bdo> invesão de texto kkakkakakakaa-->
+    <p><bdo dir="rtl">Estou aprendendo criar coisas em HTML</bdo></p>
+</body>
+</html>

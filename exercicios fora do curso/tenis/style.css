@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    align-items: center;
+    font-family: "poppins",sans-serif;
+}
+
+main{
+    position: absolute;
+    width: 263px;
+    height: 386px;
+    left: 635px;
+    top: 163px;
+
+    background: #ffffff96;
+    box-shadow: 0px 4px 42px rgba(128, 128, 128, 0.459);
+    border-radius: 10px;
+    border-top-right-radius: 85px;
+}
+
+h2{
+    font-size: 25px;
+    font-family: "poppins", sans-serif;
+    color: #2e3c64;
+}
+
+h3{
+    position: absolute;
+    left: 20px;
+    bottom: 220px;
+    color: #6f6c6c;
+}
+
+p{
+    position: absolute;
+    left: 20px;
+    font-family: sans-serif;
+    color:grey;
+    font-size: 13px;
+}
+
+.nike{
+    font-size: 15px;
+}
+
+.name{
+    font-family: Helvetica;
+    font-weight: 900;
+    position:absolute;
+    left: 20px;
+    bottom: 155px;
+}
+
+.rs{
+    position: absolute;
+    left: 148px;
+    top: 215px;
+}
+
+.preco{
+    position: absolute;
+    left: 165px;
+    bottom: 110px;
+}
+
+.cores{
+    position: absolute;
+    bottom: 80px;
+}
+
+.cor1{
+    width: 16px;
+    height: 16px;
+    background: greenyellow;
+    border-radius: 100%;
+
+    position: absolute;
+    bottom: 75px;
+    left: 25px;
+}
+
+.cor2{
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 100%;
+
+    position: absolute;
+    bottom: 75px;
+    left: 60px;
+}
+
+.cor3{
+    width: 15px;
+    height: 15px;
+    background: blue;
+    border-radius: 100%;
+
+    position: absolute;
+    bottom: 75px;
+    left: 95px;
+}
+
+.tamanhos{
+    position: absolute;
+    bottom: 40px;
+}
+
+.tam1{
+    background: rgba(170, 170, 170, 0.315);
+    border-radius: 20%;
+
+    position: absolute;
+    font-size: 13px;
+    left: 25px;
+    bottom: 30px;
+}
+
+.tam2{
+    background: rgba(170, 170, 170, 0.315);
+    border-radius: 20%;
+
+    position: absolute;
+    font-size: 13px;
+    left: 60px;
+    bottom: 30px;
+}
+
+.tam3{
+    background: rgba(170, 170, 170, 0.315);
+    border-radius: 20%;
+
+    position: absolute;
+    font-size: 13px;
+    left: 95px;
+    bottom: 30px;
+}
+
+.tenis{
+    position: relative;
+    margin-top: -210px;
+    margin-left: -25px;
+}
+
+.rectangulo{
+    width: 45px;
+    height: 70px;
+    background: greenyellow;
+    border-radius: 10px;
+}
+
+.rectangulo{
+    margin-top: 75px;
+    margin-left: 190px;
+    box-shadow: 7px 5px 10px rgba(128, 128, 128, 0.57);
+}
+
+.carrinho {
+    margin-left: 200px;
+    margin-top: -35px;
+}
+
+.carrinho img{
+    width: 23px;
+}
